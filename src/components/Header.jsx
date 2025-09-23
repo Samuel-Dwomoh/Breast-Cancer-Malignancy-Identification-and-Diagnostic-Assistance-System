@@ -12,12 +12,12 @@ function Header(){
     <div className="flex mx-12 justify-between">
 
         <div className="flex items-center gap-x-4">
-            <a href="#"><img src={logo} alt="logo" className="w-19" /></a>
-            <h4 className="uppercase text-pink-500">Breast Cancer Malignancy Identification and Diagnostic Assistance System</h4>
+            <a href="#"><img src={logo} alt="logo" className="w-20 -mt-1" /></a>
+            <h4 className="uppercase text-pink-500 mt-2">Breast Cancer Malignancy Identification and Diagnostic Assistance System</h4>
         </div>
 
         <nav className="flex gap-6 items-center text-pink-500 ">
-            <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Diagnostic Interface</a></ul>
+            <ul><a href="#" className="bg-pink-500 py-3 text-white px-2 rounded-sm transition-all duration-400">Diagnostic Interface</a></ul>
             <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Results Dashboard</a></ul>
             <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Clinical Evidence</a></ul>
         </nav>
