@@ -16,10 +16,10 @@ function Header(){
             <h4 className="uppercase text-pink-500">Breast Cancer Malignancy Identification and Diagnostic Assistance System</h4>
         </div>
 
-        <nav className="flex gap-6 items-center text-pink-500">
-            <ul><a href="#">Diagnostic Interface</a></ul>
-            <ul><a href="#">Results Dashboard</a></ul>
-            <ul><a href="#">Clinical Evidence</a></ul>
+        <nav className="flex gap-6 items-center text-pink-500 ">
+            <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Diagnostic Interface</a></ul>
+            <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Results Dashboard</a></ul>
+            <ul><a href="#" className="hover:text-white hover:bg-pink-500 hover:py-3 hover:px-2 hover:rounded-sm transition-all duration-400">Clinical Evidence</a></ul>
         </nav>
         
 

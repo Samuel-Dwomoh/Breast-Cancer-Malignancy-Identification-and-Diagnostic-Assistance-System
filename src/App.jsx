@@ -5,6 +5,7 @@ import './index.css'
 import Header from './components/Header'
 import Footer from "./components/Footer"
 import CytologicalFeatures from "./components/CytologicalFeatures"
+import Hero from './components/Hero'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
     <Header />
+    <Hero/>
     {/* <CytologicalFeatures /> */}
     <Footer />
     </>
