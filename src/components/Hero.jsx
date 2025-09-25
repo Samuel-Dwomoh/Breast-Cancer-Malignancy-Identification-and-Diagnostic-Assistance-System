@@ -19,9 +19,10 @@ function Hero(){
                     <span className="block">for better patient outcomes.</span>
                 </p>
             </div>
-            <div className="flex justify-center gap-x-4 mt-6">
-                <a href="" className="bg-pink-500 px-2 py-2 rounded-sm">Try Model</a>
-                <a href="" className="bg-pink-500 px-2 py-2 rounded-sm">View Documentation</a>
+            
+            <div className="flex justify-center gap-x-4 mt-8 text-white">
+                <a href="" className="bg-pink-500 px-3 py-2 rounded-sm">Try Model</a>
+                <a href="" className="bg-pink-500 px-3 py-2 rounded-sm">View Documentation</a>
             </div>
         </section>
         </>
