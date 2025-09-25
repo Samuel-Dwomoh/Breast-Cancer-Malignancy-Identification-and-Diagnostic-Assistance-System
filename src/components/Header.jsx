@@ -9,7 +9,7 @@ function Header(){
 
     return(
         <>
-    <div className="flex mx-12 justify-between">
+    <div className="flex mx-12 justify-between px-4 py-1 absolute z-50 w-[95%]">
 
         <div className="flex items-center gap-x-4">
             <a href="#"><img src={logo} alt="logo" className="w-20 -mt-1" /></a>
