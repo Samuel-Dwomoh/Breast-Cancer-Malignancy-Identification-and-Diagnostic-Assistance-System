@@ -6,6 +6,7 @@ import documentation from "../assets/documentation.svg";
 
 function Hero(){
 
+
     return(
         <>
         <section className="mt-60 px-4 absolute z-50 w-full">
