@@ -3,11 +3,13 @@ import { cn } from "@/lib/utils";
 import { Spotlight } from "../components/ui/spotlight";
 import Header from './Header';
 import Hero from './Hero';
+import Join from './Join';
+import Footer from './Footer';
 
 export function SpotlightPreview() {
   return (<>
     <div
-      className="relative h-[46.6rem] w-full overflow-hidden bg-black/[0.96] antialiased md:items-center md:justify-center">
+      className="relative h-[46.6rem] w-full overflow-x-hidden bg-black/[0.96] antialiased md:items-center md:justify-center">
           <Header / >
       <div
         className={cn(
@@ -16,6 +18,7 @@ export function SpotlightPreview() {
         )} />
       <Spotlight className="-top-40 left-0 md:-top-20 md:left-60" fill="white" />
       <Hero />
+      <Footer />
     </div>
     </>
   );
